@@ -9,9 +9,6 @@ bot.on("message", async (message) => {
 	if (message.content.startsWith('ping!')) {
 		message.channel.send("Pong!"); // untuk mengetes apakah bot merespon atau tidak
 	}
-});
-
-bot.on("message", async (message) => {
 	if (message.content.startsWith('love you')) {
 		message.channel.send("Love you too wkwk"); // untuk mengetes apakah bot merespon atau tidak
 	}
