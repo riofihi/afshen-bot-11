@@ -13,7 +13,7 @@ bot.on("message", async (message) => {
 		message.channel.send("Love you too wkwk"); // untuk mengetes apakah bot merespon atau tidak
 	}
 	if (message.content.startsWith('afshen?')) {
-		message.channel.send("Kapten Team Hallow yang paling kece"); // untuk mengetes apakah bot merespon atau tidak
+		message.channel.send("Kapten Team Hallow yang paling kece:kissing_heart:"); // untuk mengetes apakah bot merespon atau tidak
 	}
 });
 
