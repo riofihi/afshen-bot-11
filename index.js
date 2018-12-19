@@ -11,4 +11,10 @@ bot.on("message", async (message) => {
 	}
 });
 
+bot.on("message", async (message) => {
+	if (message.content.startsWith('love you')) {
+		message.channel.send("Love you too wkwk"); // untuk mengetes apakah bot merespon atau tidak
+	}
+});
+
 bot.login(process.env.BOT_TOKEN);
