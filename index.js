@@ -15,6 +15,9 @@ bot.on("message", async (message) => {
 	if (message.content.startsWith('afshen?')) {
 		message.channel.send("Kapten Team Hallow yang paling kece:kissing_heart:"); // untuk mengetes apakah bot merespon atau tidak
 	}
+	if (message.content.startsWith('salken semua')) {
+		message.channel.send("Salam kenal juga ka,Jangan lupa isi #🚨biodata-tamu ya kak! {user}"); // untuk mengetes apakah bot merespon atau tidak
+	}
 });
 
 bot.login(process.env.BOT_TOKEN);
